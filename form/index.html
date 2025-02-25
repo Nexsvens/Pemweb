@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+</head>
+<body>
+    <form>
+        <table border="0">
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td><label for="Kelamin"> Kelamin:</label></td>
+                <td>
+                    <input type="radio" id="laki" name="gender" value="Laki laki" /> <label for="laki">Laki Laki</label>
+                    <input type="radio" id="perempuan" name="gender" value="Perempuan" /> <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Tanggal Lahir">Tanggal Lahir:</label></td>
+                <td><input type="date" name="Tanggal Lahir" /></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat:</label></td>
+                <td><textarea id="alamat" name="alamat" rows="3" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Warna">warna:</label></td>
+                <td><input type="color" name="Warna"></input></td>
+            </tr>
+            <tr>
+                <td><label for="file">file:</label></td>
+                <td><input type="file" name="file"></input></td>
+            </tr>
+            <tr>
+                <td><label for="jurusan">Jurusan:</label></td>
+                <td>
+                    <select id="jurusan" name="jurusan">
+                        <option value="RPL">RPL</option>
+                        <option value="MULTIMEDIA">MULTIMEDIA</option>
+                        <option value="PGSD">PGSD</option>
+                        <option value="PGPAUD">PGPAUD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="remember" name="remember" value="remember" />
+                    <label for="remember">Remember me</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
